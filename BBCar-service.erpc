@@ -1,0 +1,7 @@
+program BBCar_control; // specify name of output files
+
+interface BBCarService // cover functions for same topic
+{
+   Speed() -> void
+   distance() -> void
+}
